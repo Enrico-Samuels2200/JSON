@@ -3,7 +3,6 @@ const http = require('http');
 
 const app = express();
 const server = http.createServer(app);
-const router = express.Router();
 
 // Sets up a GET request, 'http://localhost:3800/greeting'
 app.get('/greeting', (req, res) => {
